@@ -279,3 +279,21 @@ h1 em, h2 em, .modal h2 em { color: var(--blue); font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+
+/* Vectorised editorial illustrations supplied for UpDay. */
+.hero-art { background: center / contain no-repeat url("assets/illustrations/hero-language.svg"); }
+.hero-art > svg, .hero-art .speech, .hero-art .hero-sticker { display: none; }
+.language-art { background: center / contain no-repeat; }
+.language-art svg { display: none; }
+.language-card:nth-child(1) .language-art { background-image: url("assets/illustrations/english.svg"); }
+.language-card:nth-child(2) .language-art { background-image: url("assets/illustrations/chinese.svg"); }
+.language-card:nth-child(3) .language-art { background-image: url("assets/illustrations/french.svg"); }
+.language-card:nth-child(4) .language-art { background-image: url("assets/illustrations/japanese.svg"); }
+.language-card:nth-child(5) .language-art { background-image: url("assets/illustrations/korean.svg"); }
+.method-art { background: center / contain no-repeat url("assets/illustrations/method.svg"); }
+.method-art svg, .method-art span { display: none; }
+
+@media (max-width: 680px) {
+  .hero-art { background-size: 105% auto; }
+  .language-art { background-size: 112% auto; }
+}
