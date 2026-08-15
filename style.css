@@ -33,6 +33,7 @@ a { color: inherit; text-decoration: none; }
 .button:hover { transform: translateY(-3px) rotate(-1deg); box-shadow: 0 9px 0 rgba(23,23,25,.14); }
 .button--dark { color: #fff; background: var(--ink); }
 .button--lime { color: var(--ink); background: var(--lime); }
+.button--dark span, .button--dark b { color: var(--ink); background: var(--lime); filter: none; }
 .header-cta { padding: 11px 13px 11px 19px; }
 .header-cta span { width: 23px; height: 23px; }
 .menu-toggle { display: none; }
