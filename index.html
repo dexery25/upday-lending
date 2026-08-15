@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fbfaf6" />
+    <meta name="description" content="UpDay — английский для детей и подростков" />
+    <title>UpDay — Английский становится частью дня</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="header container" id="top">
+      <a class="logo" href="#top" aria-label="UpDay — на главную">Up<span>Day</span><i></i></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+        <span class="sr-only">Открыть меню</span>
+      </button>
+      <nav class="nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#courses">Курсы</a>
+        <a href="#how">Как учимся</a>
+        <a href="#about">О школе</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <button class="button button--dark header-cta" data-modal-open>Пробный урок <span>↗</span></button>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> английский, который не хочется выключать</p>
+          <h1>Английский,<br />который становится<br /><em>частью дня.</em></h1>
+          <p class="hero-text">Для детей и подростков от 3 до 16 лет. Живые занятия, разговорная практика и английский без скучной зубрёжки.</p>
+          <div class="hero-actions">
+            <button class="button button--lime" data-modal-open>Записаться на пробный урок <span>↗</span></button>
+            <a class="text-link" href="#courses">Посмотреть курсы <span>↓</span></a>
+          </div>
+        </div>
+
+        <div class="hero-playground reveal reveal-delay" aria-label="Декоративная иллюстрация">
+          <div class="playground-surface"></div>
+          <div class="word-card word-card--hello">hello!</div>
+          <div class="word-card word-card--speak">speak<br /><b>freely</b></div>
+          <div class="word-card word-card--level">level<br />up <span>↗</span></div>
+          <div class="bubble bubble--a">A<sup>+</sup></div>
+          <div class="bubble bubble--chat">say it<br /><b>out loud</b></div>
+          <div class="circle-doodle circle-doodle--one"></div>
+          <div class="circle-doodle circle-doodle--two"></div>
+          <span class="spark spark--one">✦</span>
+          <span class="spark spark--two">✦</span>
+          <span class="arrow-scribble">↝</span>
+          <div class="avatar avatar--one"><span>Hi!</span></div>
+          <div class="avatar avatar--two"></div>
+          <div class="hero-stamp">let's<br />talk!</div>
+        </div>
+
+        <div class="hero-bottom reveal">
+          <div class="scroll-note"><i></i> листай, будет интересно</div>
+          <div class="hero-stat"><strong>4.9 <span>★</span></strong><small>оценка школы<br />у родителей</small></div>
+          <div class="hero-stat"><strong>3–16</strong><small>лет — наши<br />ученики</small></div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="UpDay — английский в твоём ритме">
+        <div class="marquee-track"><span>UPDAY</span><b>✦</b><span>английский в твоём ритме</span><b>✦</b><span>UPDAY</span><b>✦</b><span>английский в твоём ритме</span><b>✦</b></div>
+      </section>
+
+      <section class="courses section container" id="courses">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> выбирай свой уровень</p>
+          <h2>Курсы, которые<br />растут <em>вместе с тобой.</em></h2>
+          <p>Каждому возрасту — свой формат, темы и темп. Но всегда много общения, игры и настоящего английского.</p>
+        </div>
+        <div class="course-grid">
+          <a class="course-card course-card--lime reveal" href="#cta"><span class="course-num">01</span><div class="course-icon">✿</div><h3>3–6<br />лет</h3><p>Играем, поём, говорим</p><i>↗</i></a>
+          <a class="course-card course-card--blue reveal reveal-delay-1" href="#cta"><span class="course-num">02</span><div class="course-icon">☻</div><h3>7–10<br />лет</h3><p>Открываем язык</p><i>↗</i></a>
+          <a class="course-card course-card--pink reveal reveal-delay-2" href="#cta"><span class="course-num">03</span><div class="course-icon">☄</div><h3>11–13<br />лет</h3><p>Находим свой голос</p><i>↗</i></a>
+          <a class="course-card course-card--orange reveal reveal-delay-1" href="#cta"><span class="course-num">04</span><div class="course-icon">✌</div><h3>14–16<br />лет</h3><p>Говорим уверенно</p><i>↗</i></a>
+          <a class="course-card course-card--violet reveal reveal-delay-2" href="#cta"><span class="course-num">05</span><div class="course-icon">A+</div><h3>Подготовка<br />к экзаменам</h3><p>Спокойно идём к цели</p><i>↗</i></a>
+        </div>
+      </section>
+
+      <section class="benefits section container" id="about">
+        <div class="benefits-intro reveal">
+          <p class="eyebrow eyebrow--light"><span></span> в чём наш секрет?</p>
+          <h2>Знания — это круто.<br /><em>Пользоваться</em> ими — ещё круче.</h2>
+          <div class="mini-sticker">no boring<br />stuff!</div>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit reveal"><div class="benefit-icon benefit-icon--blue">◎</div><h3>Говорим<br />с первого занятия</h3><p>Язык сразу становится живым — без долгой подготовки.</p></article>
+          <article class="benefit reveal reveal-delay-1"><div class="benefit-icon benefit-icon--lime">♧</div><h3>Небольшие<br />группы</h3><p>Чтобы у каждого было время быть услышанным.</p></article>
+          <article class="benefit reveal reveal-delay-2"><div class="benefit-icon benefit-icon--pink">↗</div><h3>Прогресс<br />видно</h3><p>Регулярная обратная связь для ребят и родителей.</p></article>
+          <article class="benefit reveal reveal-delay-3"><div class="benefit-icon benefit-icon--orange">⚡</div><h3>Без скучной<br />зубрёжки</h3><p>Интересные темы вместо листов с однотипными словами.</p></article>
+        </div>
+      </section>
+
+      <section class="learning section container" id="how">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> легко начать</p>
+          <h2>Как проходит<br /><em>твой UpDay.</em></h2>
+        </div>
+        <div class="flow reveal">
+          <article class="flow-card flow-card--one"><span>01</span><div class="flow-emoji">👋</div><h3>Знакомимся</h3><p>На пробном занятии узнаём интересы и определяем уровень.</p></article>
+          <div class="flow-arrow">⟶</div>
+          <article class="flow-card flow-card--two"><span>02</span><div class="flow-emoji">✦</div><h3>Подбираем<br />группу</h3><p>Находим комфортный формат и подходящее расписание.</p></article>
+          <div class="flow-arrow">⟶</div>
+          <article class="flow-card flow-card--three"><span>03</span><div class="flow-emoji">💬</div><h3>Учимся</h3><p>Общаемся, создаём, спорим и говорим на английском.</p></article>
+          <div class="flow-arrow">⟶</div>
+          <article class="flow-card flow-card--four"><span>04</span><div class="flow-emoji">↗</div><h3>Растём</h3><p>Замечаем прогресс и берём новые вершины.</p></article>
+        </div>
+      </section>
+
+      <section class="cta section container" id="cta">
+        <div class="cta-card reveal">
+          <div class="cta-decoration cta-decoration--one">✦</div>
+          <div class="cta-decoration cta-decoration--two">?</div>
+          <div class="cta-decoration cta-decoration--three">☺</div>
+          <p class="eyebrow"><span></span> первый шаг — самый лёгкий</p>
+          <h2>Попробуем английский<br /><em>по-другому?</em></h2>
+          <p>Приходите на пробный урок — познакомимся, поговорим и найдём тот самый формат.</p>
+          <button class="button button--dark" data-modal-open>Записаться на пробный урок <span>↗</span></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="container footer-inner">
+        <a class="logo logo--footer" href="#top">Up<span>Day</span><i></i></a>
+        <p>Английский для детей<br />и подростков.</p>
+        <p>Москва.<br /><a href="tel:+74950000000">+7 (495) 000-00-00</a></p>
+        <a class="footer-up" href="#top" aria-label="Наверх">↑</a>
+      </div>
+    </footer>
+
+    <div class="modal" id="trial-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-card">
+        <button class="modal-close" type="button" data-modal-close aria-label="Закрыть">×</button>
+        <div class="modal-smile">☺</div>
+        <p class="eyebrow"><span></span> это займёт минуту</p>
+        <h2 id="modal-title">Давайте<br /><em>знакомиться!</em></h2>
+        <form id="trial-form">
+          <label>Как вас зовут?<input required type="text" name="name" placeholder="Ваше имя" /></label>
+          <label>Телефон<input required type="tel" name="phone" placeholder="+7 (___) ___-__-__" /></label>
+          <label>Возраст ребёнка<input required type="text" name="age" placeholder="Например, 9 лет" /></label>
+          <button class="button button--lime" type="submit">Отправить заявку <span>↗</span></button>
+        </form>
+        <p class="form-success" aria-live="polite">Супер! Мы скоро свяжемся с вами.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
