@@ -48,3 +48,18 @@ button,input { font:inherit; } button { border:0; cursor:pointer; } a { color:in
 .benefit p { color:rgba(23,23,25,.7); }
 .benefit-icon--blue { color:#fff; }
 .benefit-icon--lime,.benefit-icon--pink,.benefit-icon--orange { color:var(--ink); }
+
+/* One coherent illustration system: black outline, white figures, bright colour blobs. */
+.hand-icon,.doodle-scene { --doodle-stroke:4.25; }
+.hand-icon { stroke-width:var(--doodle-stroke); }
+.benefits-illustration { width:218px; height:182px; position:relative; margin:0 33px -7px 0; flex:0 0 auto; transform:rotate(3deg); }
+.doodle-scene { width:100%; height:100%; overflow:visible; fill:none; stroke:var(--ink); stroke-width:var(--doodle-stroke); stroke-linecap:round; stroke-linejoin:round; }
+.doodle-line { fill:none; stroke:var(--ink); stroke-width:var(--doodle-stroke); stroke-linecap:round; stroke-linejoin:round; }
+.doodle-fill { fill:var(--paper); }
+.doodle-blob { stroke:none; }
+.doodle-blob--pink { fill:#ff99ca; }
+.doodle-blob--lime { fill:var(--lime); }
+.benefits-illustration span { position:absolute; right:3px; bottom:4px; width:62px; height:62px; display:grid; place-items:center; text-align:center; border:2px solid var(--ink); border-radius:50%; background:var(--paper); font-family:Unbounded,Arial,sans-serif; font-size:8px; font-weight:700; line-height:1.15; transform:rotate(-12deg); }
+.course-card .hand-icon,.benefit-icon .hand-icon,.flow-emoji .hand-icon { stroke-width:var(--doodle-stroke); }
+@media (max-width:900px) { .benefits-illustration { width:170px; height:145px; margin-right:0; } }
+@media (max-width:640px) { .benefits-illustration { width:135px; height:112px; position:absolute; right:3px; top:103px; margin:0; }.benefits-illustration span { width:47px; height:47px; font-size:6px; border-width:1.5px; } }
